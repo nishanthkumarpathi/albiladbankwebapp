@@ -20,7 +20,7 @@ jobs:
         run: npm install
       
       - name: Install Gatsby
-        run: npm install gatsby-cli@latest
+        run: npm install -g gatsby-cli
 
       - name: Build Gatsby
         run: gatsby build
