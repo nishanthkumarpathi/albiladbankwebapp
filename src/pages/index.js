@@ -133,7 +133,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Albilad Welcomes You
         <br />
-        <span style={headingAccentStyles}>Best Bank in KSA</span>
+        <span style={headingAccentStyles}>Worls First Bank in KSA</span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
