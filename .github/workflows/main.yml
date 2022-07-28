@@ -17,13 +17,13 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Dependencies
-        uses: npm install
+        run: npm install
       
       - name: Install Gatsby
-        uses: npm install gatsby-cli@latest
+        run: npm install gatsby-cli@latest
 
       - name: Build Gatsby
-        uses: gatsby build
+        run: gatsby build
 
   Functional-Test:
     runs-on: ubuntu-latest
